@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en" data-default-color-scheme=auto>
+<html lang="zh-CN" data-default-color-scheme=auto>
 
 
 
@@ -19,18 +19,20 @@
   <meta name="author" content="Macrohard">
   <meta name="keywords" content="">
   
-    <meta name="description" content="1. 下载 Arch Linux 镜像https:&#x2F;&#x2F;archlinux.org&#x2F;download&#x2F;  找到以下板块 1234567BitTorrent Download (recommended)If you can spare the bytes, please leave the client open after your download is finished, so you can">
+    <meta name="description" content="Arch Linux 安装">
 <meta property="og:type" content="article">
 <meta property="og:title" content="安装前准备">
 <meta property="og:url" content="https://fy-studio.github.io/macroworld/2020/01/01/%E5%AE%89%E8%A3%85%E5%89%8D%E5%87%86%E5%A4%87/index.html">
 <meta property="og:site_name" content="MacroWorld">
-<meta property="og:description" content="1. 下载 Arch Linux 镜像https:&#x2F;&#x2F;archlinux.org&#x2F;download&#x2F;  找到以下板块 1234567BitTorrent Download (recommended)If you can spare the bytes, please leave the client open after your download is finished, so you can">
-<meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2019-12-31T16:00:01.000Z">
-<meta property="article:modified_time" content="2026-03-17T12:32:44.307Z">
+<meta property="og:description" content="Arch Linux 安装">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2019-12-31T16:10:59.000Z">
+<meta property="article:modified_time" content="2026-03-18T12:34:49.732Z">
 <meta property="article:author" content="Macrohard">
 <meta name="twitter:card" content="summary_large_image">
   
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
   
   
   <title>安装前准备 - MacroWorld</title>
@@ -71,7 +73,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"fy-studio.github.io","root":"/macroworld/","version":"1.9.9","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":["home"]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"expand_all":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"openkounter":{"server_url":"https://open-kounter.mintimate.cn","path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/macroworld/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"fy-studio.github.io","root":"/macroworld/","version":"1.9.9","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"expand_all":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"openkounter":{"server_url":"https://open-kounter.mintimate.cn","path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/macroworld/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -117,7 +119,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/macroworld/" target="_self">
                 <i class="iconfont icon-home-fill"></i>
-                <span>Home</span>
+                <span>首页</span>
               </a>
             </li>
           
@@ -129,7 +131,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/macroworld/archives/" target="_self">
                 <i class="iconfont icon-archive-fill"></i>
-                <span>Archives</span>
+                <span>归档</span>
               </a>
             </li>
           
@@ -141,7 +143,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/macroworld/categories/" target="_self">
                 <i class="iconfont icon-category-fill"></i>
-                <span>Categories</span>
+                <span>分类</span>
               </a>
             </li>
           
@@ -153,7 +155,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/macroworld/tags/" target="_self">
                 <i class="iconfont icon-tags-fill"></i>
-                <span>Tags</span>
+                <span>标签</span>
               </a>
             </li>
           
@@ -165,7 +167,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/macroworld/about/" target="_self">
                 <i class="iconfont icon-user-fill"></i>
-                <span>About</span>
+                <span>关于</span>
               </a>
             </li>
           
@@ -177,7 +179,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/macroworld/links/" target="_self">
                 <i class="iconfont icon-link-fill"></i>
-                <span>Links</span>
+                <span>友链</span>
               </a>
             </li>
           
@@ -216,7 +218,7 @@
               <a href="/macroworld/" target="_self">
                 <div class="mobile-grid-item">
                   <i class="iconfont icon-home-fill"></i>
-                  <span>Home</span>
+                  <span>首页</span>
                 </div>
               </a>
             </div>
@@ -230,7 +232,7 @@
               <a href="/macroworld/archives/" target="_self">
                 <div class="mobile-grid-item">
                   <i class="iconfont icon-archive-fill"></i>
-                  <span>Archives</span>
+                  <span>归档</span>
                 </div>
               </a>
             </div>
@@ -244,7 +246,7 @@
               <a href="/macroworld/categories/" target="_self">
                 <div class="mobile-grid-item">
                   <i class="iconfont icon-category-fill"></i>
-                  <span>Categories</span>
+                  <span>分类</span>
                 </div>
               </a>
             </div>
@@ -258,7 +260,7 @@
               <a href="/macroworld/tags/" target="_self">
                 <div class="mobile-grid-item">
                   <i class="iconfont icon-tags-fill"></i>
-                  <span>Tags</span>
+                  <span>标签</span>
                 </div>
               </a>
             </div>
@@ -272,7 +274,7 @@
               <a href="/macroworld/about/" target="_self">
                 <div class="mobile-grid-item">
                   <i class="iconfont icon-user-fill"></i>
-                  <span>About</span>
+                  <span>关于</span>
                 </div>
               </a>
             </div>
@@ -286,7 +288,7 @@
               <a href="/macroworld/links/" target="_self">
                 <div class="mobile-grid-item">
                   <i class="iconfont icon-link-fill"></i>
-                  <span>Links</span>
+                  <span>友链</span>
                 </div>
               </a>
             </div>
@@ -297,19 +299,19 @@
             <a href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
               <div class="mobile-grid-item">
                 <i class="iconfont icon-search"></i>
-                <span>Search</span>
+                <span>搜索</span>
               </div>
             </a>
           </div>
         
         
           <div class="col-4 mobile-grid-cell" id="mobile-color-toggle-btn"
-               data-label-light="Light"
-               data-label-dark="Dark">
+               data-label-light="开灯"
+               data-label-dark="关灯">
             <a href="javascript:;" aria-label="Color Toggle">
               <div class="mobile-grid-item">
                 <i class="iconfont icon-dark" id="mobile-color-toggle-icon"></i>
-                <span id="mobile-color-toggle-label">Dark</span>
+                <span id="mobile-color-toggle-label">关灯</span>
               </div>
             </a>
           </div>
@@ -328,7 +330,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle">安装前准备</span>
+            <span id="subtitle" data-typed-text="安装前准备"></span>
           
         </div>
 
@@ -339,8 +341,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2020-01-01 00:00" pubdate>
-          January 1, 2020 am
+        <time datetime="2020-01-01 00:10" pubdate>
+          2020年1月1日 凌晨
         </time>
       </span>
     
@@ -351,7 +353,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          775 words
+          2.2k 字
         
       </span>
     
@@ -362,7 +364,7 @@
         
         
         
-          7 mins
+          19 分钟
         
       </span>
     
@@ -406,24 +408,64 @@
             
               <div class="markdown-body">
                 
-                <h2 id="1-下载-Arch-Linux-镜像"><a href="#1-下载-Arch-Linux-镜像" class="headerlink" title="1. 下载 Arch Linux 镜像"></a>1. 下载 Arch Linux 镜像</h2><p><a target="_blank" rel="noopener" href="https://archlinux.org/download/">https://archlinux.org/download/</a></p>
-<p> <strong>找到以下板块</strong></p>
-<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs applescript">BitTorrent Download (recommended)<br><br>If you can spare <span class="hljs-keyword">the</span> bytes, please leave <span class="hljs-keyword">the</span> client open <span class="hljs-keyword">after</span> your download <span class="hljs-keyword">is</span> finished, so you can seed <span class="hljs-keyword">it</span> <span class="hljs-keyword">back</span> <span class="hljs-keyword">to</span> others.  <br>A DHT capable client <span class="hljs-keyword">is</span> required. A WebSeed capable client <span class="hljs-keyword">is</span> recommended <span class="hljs-keyword">for</span> fastest download speeds.<br><br>- Magnet link <span class="hljs-keyword">for</span> XXXX.XX.XX<br>- Torrent <span class="hljs-keyword">for</span> XXXX.XX.XX<br></code></pre></td></tr></table></figure>
-<p><strong>任意选择一个选项进行下载</strong></p>
-<hr>
-<h2 id="2-制作安装介质（Live-环境）"><a href="#2-制作安装介质（Live-环境）" class="headerlink" title="2. 制作安装介质（Live 环境）"></a>2. 制作安装介质（Live 环境）</h2><h3 id="方式一：使用-Ventoy-制作启动盘（推荐）"><a href="#方式一：使用-Ventoy-制作启动盘（推荐）" class="headerlink" title="方式一：使用 Ventoy 制作启动盘（推荐）"></a>方式一：使用 Ventoy 制作启动盘（推荐）</h3><p><a target="_blank" rel="noopener" href="https://www.ventoy.net/cn/download.html">https://www.ventoy.net/cn/download.html</a><br><strong>⚠️ 注意：备份U盘重要数据</strong></p>
-<p>按照界面提示操作，完成后将 Arch Linux ISO 放到 U盘根目录。</p>
-<h3 id="方式二：压缩卷（没有-U-盘的情况下）"><a href="#方式二：压缩卷（没有-U-盘的情况下）" class="headerlink" title="方式二：压缩卷（没有 U 盘的情况下）"></a>方式二：压缩卷（没有 U 盘的情况下）</h3><ol>
-<li>打开 Windows 的磁盘管理，选择一个分区，右键点击“压缩卷”，大小要大于 ISO 镜像。</li>
-<li>右键未分配的空间，右键选择“新建简单卷”，格式化前选择文件系统为 FAT32 。</li>
-<li>解压 ISO 文件，将里面的所有文件复制到刚刚新建的分区内。</li>
+                <h2 id="1-下载-Arch-Linux-镜像"><a href="#1-下载-Arch-Linux-镜像" class="headerlink" title="1. 下载 Arch Linux 镜像"></a>1. 下载 Arch Linux 镜像</h2><p>Arch Linux 官方下载地址：<a target="_blank" rel="noopener" href="https://archlinux.org/download/">https://archlinux.org/download/</a></p>
+<p>当前最新稳定版本为 <strong>2026.03.01</strong>，包含内核版本 6.18.13，ISO 镜像大小 1.4 GB。推荐通过 BitTorrent 方式下载（速度更快且能保障文件完整性），具体操作如下：</p>
+<p>在下载页面找到 <strong>BitTorrent Download (recommended)</strong> 板块：</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs applescript">BitTorrent Download (recommended)<br>If you can spare <span class="hljs-keyword">the</span> bytes, please leave <span class="hljs-keyword">the</span> client open <span class="hljs-keyword">after</span> your download <span class="hljs-keyword">is</span> finished, so you can seed <span class="hljs-keyword">it</span> <span class="hljs-keyword">back</span> <span class="hljs-keyword">to</span> others.<br>A DHT capable client <span class="hljs-keyword">is</span> required. A WebSeed capable client <span class="hljs-keyword">is</span> recommended <span class="hljs-keyword">for</span> fastest download speeds.<br><br>- Magnet link <span class="hljs-keyword">for</span> <span class="hljs-number">2026.03</span><span class="hljs-number">.01</span><br>- Torrent <span class="hljs-keyword">for</span> <span class="hljs-number">2026.03</span><span class="hljs-number">.01</span><br></code></pre></td></tr></table></figure>
+<ul>
+<li>任选其中一个选项（Magnet 链接或 Torrent 文件），使用支持 DHT 的 BT 客户端（如 qBittorrent、Transmission）下载；</li>
+<li>下载完成后建议验证文件完整性：可通过官方提供的 <code>sha256sums.txt</code> 或 <code>b2sums.txt</code> 校验，也可通过 PGP 签名验证（具体命令参考官方文档）。</li>
+</ul>
+<p>若无法使用 BT 下载，可选择 HTTP 直接下载，国内推荐镜像源：</p>
+<ul>
+<li>清华大学：<a target="_blank" rel="noopener" href="https://mirrors.tuna.tsinghua.edu.cn/archlinux/iso/">https://mirrors.tuna.tsinghua.edu.cn/archlinux/iso/</a></li>
+<li>中国科学技术大学：<a target="_blank" rel="noopener" href="https://mirrors.ustc.edu.cn/archlinux/iso/">https://mirrors.ustc.edu.cn/archlinux/iso/</a></li>
+<li>南京大学：<a target="_blank" rel="noopener" href="https://mirrors.nju.edu.cn/archlinux/iso/">https://mirrors.nju.edu.cn/archlinux/iso/</a></li>
+</ul>
+<h2 id="2-制作安装介质（Live-环境）"><a href="#2-制作安装介质（Live-环境）" class="headerlink" title="2. 制作安装介质（Live 环境）"></a>2. 制作安装介质（Live 环境）</h2><h3 id="方式一：使用-Ventoy-制作启动盘（推荐）"><a href="#方式一：使用-Ventoy-制作启动盘（推荐）" class="headerlink" title="方式一：使用 Ventoy 制作启动盘（推荐）"></a>方式一：使用 Ventoy 制作启动盘（推荐）</h3><p>Ventoy 是一款免格式化的启动盘制作工具，支持直接拷贝 ISO 镜像即可启动，操作简单且兼容多系统镜像。</p>
+<ol>
+<li><p>下载 Ventoy 安装包：<a target="_blank" rel="noopener" href="https://www.ventoy.net/cn/download.html">https://www.ventoy.net/cn/download.html</a></p>
+<ul>
+<li>最新版本：1.1.10（2025-12-21 发布）</li>
+<li>Windows 系统下载 <code>ventoy-1.1.10-windows.zip</code>（15 MB）；</li>
+<li>Linux 系统下载 <code>ventoy-1.1.10-linux.tar.gz</code>（19 MB）；</li>
+<li>国内下载镜像（推荐，速度更快）：<ul>
+<li>南京大学镜像站：<a target="_blank" rel="noopener" href="https://mirrors.nju.edu.cn/github-release/ventoy/Ventoy">https://mirrors.nju.edu.cn/github-release/ventoy/Ventoy</a></li>
+<li>百度网盘：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1lVoctl45GpLBgG53W1W7qQ?pwd=vtoy%EF%BC%88%E6%8F%90%E5%8F%96%E7%A0%81%EF%BC%9Avtoy%EF%BC%89">https://pan.baidu.com/s/1lVoctl45GpLBgG53W1W7qQ?pwd=vtoy（提取码：vtoy）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>制作步骤：</p>
+<ul>
+<li>⚠️ 重要提醒：提前备份 U 盘内所有重要数据（制作过程会格式化 U 盘）；</li>
+<li>解压 Ventoy 安装包，运行对应系统的安装程序（Windows 运行 <code>Ventoy2Disk.exe</code>，Linux 执行 <code>sudo sh Ventoy2Disk.sh</code>）；</li>
+<li>选择要制作的 U 盘，点击“安装”，等待完成（无需手动分区格式化）；</li>
+<li>将下载好的 Arch Linux ISO 镜像文件直接拷贝到 U 盘根目录（无需解压），即可完成启动盘制作。</li>
+</ul>
+</li>
 </ol>
-<hr>
-<h2 id="3-关闭安全启动"><a href="#3-关闭安全启动" class="headerlink" title="3. 关闭安全启动"></a>3. 关闭安全启动</h2><p>重启电脑，在开机时持续按 ESC、F2、DELETE （取决于主板）。如果不小心进入了启动项选择界面，就选择 Enter Setup。进入 BIOS 后，关闭安全启动（Security Boot）。</p>
-<hr>
-<h2 id="4-选择启动项"><a href="#4-选择启动项" class="headerlink" title="4. 选择启动项"></a>4. 选择启动项</h2><p>在 BIOS 里选择刚刚制作的启动盘载入，系统将会被载入内存，这个环境即为 Live 环境（类似于 PE）。</p>
-<hr>
-<p><strong>本教程仅涉及 UEFI 固件下的安装，BIOS 固件下的安装方法可能有所不同。</strong></p>
+<h3 id="方式二：压缩卷（没有-U-盘的情况下）"><a href="#方式二：压缩卷（没有-U-盘的情况下）" class="headerlink" title="方式二：压缩卷（没有 U 盘的情况下）"></a>方式二：压缩卷（没有 U 盘的情况下）</h3><p>适用于无 U 盘时，通过硬盘分区制作启动环境：</p>
+<ol>
+<li>打开 Windows 磁盘管理（右键此电脑 → 管理 → 磁盘管理）；</li>
+<li>选择一个剩余空间充足的分区（建议剩余空间 ≥ 2 GB），右键点击“压缩卷”，输入压缩空间大小（需大于 Arch Linux ISO 镜像大小，建议 2 GB 以上）；</li>
+<li>右键新生成的“未分配”空间，选择“新建简单卷”，按照向导完成创建（文件系统需选择 FAT32，分配盘符可自定义）；</li>
+<li>用解压工具（如 7-Zip、WinRAR）打开 Arch Linux ISO 镜像，将镜像内所有文件复制到刚刚新建的 FAT32 分区内，完成启动环境部署。</li>
+</ol>
+<h2 id="3-关闭安全启动"><a href="#3-关闭安全启动" class="headerlink" title="3. 关闭安全启动"></a>3. 关闭安全启动</h2><p>Arch Linux 安装过程中需要关闭主板的安全启动（Secure Boot），否则可能无法正常引导：</p>
+<ol>
+<li>重启电脑，开机时持续按下对应的 BIOS 进入键（不同主板按键不同，常见为 ESC、F2、DELETE、F10，开机时屏幕通常会提示）；</li>
+<li>进入 BIOS 界面后，找到“Security”（安全）选项卡，找到“Secure Boot”（安全启动）选项，设置为“Disabled”（关闭）；</li>
+<li>保存设置并退出 BIOS（通常按 F10 保存，部分主板需选择“Save and Exit”）。</li>
+</ol>
+<h2 id="4-选择启动项"><a href="#4-选择启动项" class="headerlink" title="4. 选择启动项"></a>4. 选择启动项</h2><ol>
+<li>保存 BIOS 设置后电脑会重启，再次开机时持续按下启动项选择键（常见为 F12、F8、ESC，具体按键可参考主板说明书）；</li>
+<li>在启动项列表中，选择制作好的安装介质（Ventoy 制作的 U 盘通常显示为“UEFI: [U盘名称]”，硬盘分区制作的启动环境显示为对应的 FAT32 分区盘符）；</li>
+<li>选择后回车，系统会从安装介质载入 Live 环境（类似 Windows PE，无需安装即可运行），等待加载完成后进入命令行界面，即准备好安装环境。</li>
+</ol>
+<blockquote>
+<p>⚠️ 注意：本教程仅涉及 UEFI 固件下的安装，传统 BIOS（Legacy）固件下的分区表、引导配置等方法有所不同，若你的电脑为 BIOS 固件，请参考 Arch Wiki 对应教程。</p>
+</blockquote>
 
                 
               </div>
@@ -467,7 +509,7 @@
                       <a href="/macroworld/2020/01/01/%E5%89%8D%E8%A8%80/" title="前言">
                         <i class="iconfont icon-arrowleft"></i>
                         <span class="hidden-mobile">前言</span>
-                        <span class="visible-mobile">Previous</span>
+                        <span class="visible-mobile">上一篇</span>
                       </a>
                     
                   </article>
@@ -476,7 +518,7 @@
                     
                       <a href="/macroworld/2020/01/01/C-%E7%AC%94%E8%AE%B0/" title="C++ 笔记">
                         <span class="hidden-mobile">C++ 笔记</span>
-                        <span class="visible-mobile">Next</span>
+                        <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
                     
@@ -497,7 +539,7 @@
     <div id="toc">
   <p class="toc-header">
     <i class="iconfont icon-list"></i>
-    <span>Table of Contents</span>
+    <span>目录</span>
   </p>
   <div class="toc-body" id="toc-body"></div>
 </div>
@@ -553,7 +595,7 @@
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
         <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -561,7 +603,7 @@
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
@@ -581,6 +623,32 @@
       MacroWorld
     </div>
   
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+
+  
+
+</div>
+
   
   
 </div>
@@ -606,6 +674,21 @@
 <script  src="/macroworld/js/events.js" ></script>
 <script  src="/macroworld/js/plugins.js" ></script>
 
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
 
 
 
@@ -776,6 +859,8 @@
 
   <script  src="/macroworld/js/local-search.js" ></script>
 
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
 
 
 
@@ -788,7 +873,7 @@
   
 
   <noscript>
-    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
 </body>
 </html>

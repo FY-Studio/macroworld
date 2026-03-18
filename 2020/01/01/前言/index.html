@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en" data-default-color-scheme=auto>
+<html lang="zh-CN" data-default-color-scheme=auto>
 
 
 
@@ -19,18 +19,20 @@
   <meta name="author" content="Macrohard">
   <meta name="keywords" content="">
   
-    <meta name="description" content="安装前言本指南旨在为初次安装 Arch Linux 的用户提供一份清晰、循序渐进的安装教程。Arch Linux 是一个轻量级、高度可定制的 Linux 发行版，遵循“KISS”（保持简单与直接）原则。它采用滚动更新模式，为用户提供了最新的软件包和一个由用户主导的、高度自由的系统构建体验。 常见问题：为何选择 Arch Linux？Q：相比 Windows 和其它 Linux 发行版有什么优势或特">
+    <meta name="description" content="Arch Linux 安装">
 <meta property="og:type" content="article">
 <meta property="og:title" content="前言">
 <meta property="og:url" content="https://fy-studio.github.io/macroworld/2020/01/01/%E5%89%8D%E8%A8%80/index.html">
 <meta property="og:site_name" content="MacroWorld">
-<meta property="og:description" content="安装前言本指南旨在为初次安装 Arch Linux 的用户提供一份清晰、循序渐进的安装教程。Arch Linux 是一个轻量级、高度可定制的 Linux 发行版，遵循“KISS”（保持简单与直接）原则。它采用滚动更新模式，为用户提供了最新的软件包和一个由用户主导的、高度自由的系统构建体验。 常见问题：为何选择 Arch Linux？Q：相比 Windows 和其它 Linux 发行版有什么优势或特">
-<meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2019-12-31T16:00:02.000Z">
-<meta property="article:modified_time" content="2026-03-17T12:32:55.411Z">
+<meta property="og:description" content="Arch Linux 安装">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2019-12-31T16:11:00.000Z">
+<meta property="article:modified_time" content="2026-03-18T12:33:30.336Z">
 <meta property="article:author" content="Macrohard">
 <meta name="twitter:card" content="summary_large_image">
   
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
   
   
   <title>前言 - MacroWorld</title>
@@ -71,7 +73,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"fy-studio.github.io","root":"/macroworld/","version":"1.9.9","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":["home"]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"expand_all":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"openkounter":{"server_url":"https://open-kounter.mintimate.cn","path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/macroworld/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"fy-studio.github.io","root":"/macroworld/","version":"1.9.9","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"expand_all":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"openkounter":{"server_url":"https://open-kounter.mintimate.cn","path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/macroworld/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -117,7 +119,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/macroworld/" target="_self">
                 <i class="iconfont icon-home-fill"></i>
-                <span>Home</span>
+                <span>首页</span>
               </a>
             </li>
           
@@ -129,7 +131,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/macroworld/archives/" target="_self">
                 <i class="iconfont icon-archive-fill"></i>
-                <span>Archives</span>
+                <span>归档</span>
               </a>
             </li>
           
@@ -141,7 +143,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/macroworld/categories/" target="_self">
                 <i class="iconfont icon-category-fill"></i>
-                <span>Categories</span>
+                <span>分类</span>
               </a>
             </li>
           
@@ -153,7 +155,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/macroworld/tags/" target="_self">
                 <i class="iconfont icon-tags-fill"></i>
-                <span>Tags</span>
+                <span>标签</span>
               </a>
             </li>
           
@@ -165,7 +167,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/macroworld/about/" target="_self">
                 <i class="iconfont icon-user-fill"></i>
-                <span>About</span>
+                <span>关于</span>
               </a>
             </li>
           
@@ -177,7 +179,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/macroworld/links/" target="_self">
                 <i class="iconfont icon-link-fill"></i>
-                <span>Links</span>
+                <span>友链</span>
               </a>
             </li>
           
@@ -216,7 +218,7 @@
               <a href="/macroworld/" target="_self">
                 <div class="mobile-grid-item">
                   <i class="iconfont icon-home-fill"></i>
-                  <span>Home</span>
+                  <span>首页</span>
                 </div>
               </a>
             </div>
@@ -230,7 +232,7 @@
               <a href="/macroworld/archives/" target="_self">
                 <div class="mobile-grid-item">
                   <i class="iconfont icon-archive-fill"></i>
-                  <span>Archives</span>
+                  <span>归档</span>
                 </div>
               </a>
             </div>
@@ -244,7 +246,7 @@
               <a href="/macroworld/categories/" target="_self">
                 <div class="mobile-grid-item">
                   <i class="iconfont icon-category-fill"></i>
-                  <span>Categories</span>
+                  <span>分类</span>
                 </div>
               </a>
             </div>
@@ -258,7 +260,7 @@
               <a href="/macroworld/tags/" target="_self">
                 <div class="mobile-grid-item">
                   <i class="iconfont icon-tags-fill"></i>
-                  <span>Tags</span>
+                  <span>标签</span>
                 </div>
               </a>
             </div>
@@ -272,7 +274,7 @@
               <a href="/macroworld/about/" target="_self">
                 <div class="mobile-grid-item">
                   <i class="iconfont icon-user-fill"></i>
-                  <span>About</span>
+                  <span>关于</span>
                 </div>
               </a>
             </div>
@@ -286,7 +288,7 @@
               <a href="/macroworld/links/" target="_self">
                 <div class="mobile-grid-item">
                   <i class="iconfont icon-link-fill"></i>
-                  <span>Links</span>
+                  <span>友链</span>
                 </div>
               </a>
             </div>
@@ -297,19 +299,19 @@
             <a href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
               <div class="mobile-grid-item">
                 <i class="iconfont icon-search"></i>
-                <span>Search</span>
+                <span>搜索</span>
               </div>
             </a>
           </div>
         
         
           <div class="col-4 mobile-grid-cell" id="mobile-color-toggle-btn"
-               data-label-light="Light"
-               data-label-dark="Dark">
+               data-label-light="开灯"
+               data-label-dark="关灯">
             <a href="javascript:;" aria-label="Color Toggle">
               <div class="mobile-grid-item">
                 <i class="iconfont icon-dark" id="mobile-color-toggle-icon"></i>
-                <span id="mobile-color-toggle-label">Dark</span>
+                <span id="mobile-color-toggle-label">关灯</span>
               </div>
             </a>
           </div>
@@ -328,7 +330,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle">前言</span>
+            <span id="subtitle" data-typed-text="前言"></span>
           
         </div>
 
@@ -339,8 +341,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2020-01-01 00:00" pubdate>
-          January 1, 2020 am
+        <time datetime="2020-01-01 00:11" pubdate>
+          2020年1月1日 凌晨
         </time>
       </span>
     
@@ -351,7 +353,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          2.6k words
+          657 字
         
       </span>
     
@@ -362,7 +364,7 @@
         
         
         
-          22 mins
+          6 分钟
         
       </span>
     
@@ -406,7 +408,7 @@
             
               <div class="markdown-body">
                 
-                <h2 id="安装前言"><a href="#安装前言" class="headerlink" title="安装前言"></a>安装前言</h2><p>本指南旨在为初次安装 Arch Linux 的用户提供一份清晰、循序渐进的安装教程。Arch Linux 是一个轻量级、高度可定制的 Linux 发行版，遵循“KISS”（保持简单与直接）原则。它采用滚动更新模式，为用户提供了最新的软件包和一个由用户主导的、高度自由的系统构建体验。</p>
+                <p>本指南旨在为初次安装 Arch Linux 的用户提供一份清晰、循序渐进的安装教程。Arch Linux 是一个轻量级、高度可定制的 Linux 发行版，遵循“KISS”（保持简单与直接）原则。它采用滚动更新模式，为用户提供了最新的软件包和一个由用户主导的、高度自由的系统构建体验。</p>
 <h3 id="常见问题：为何选择-Arch-Linux？"><a href="#常见问题：为何选择-Arch-Linux？" class="headerlink" title="常见问题：为何选择 Arch Linux？"></a>常见问题：为何选择 Arch Linux？</h3><p><strong>Q：相比 Windows 和其它 Linux 发行版有什么优势或特点？</strong></p>
 <p>A：Arch Linux 的设计哲学带来了一些独特之处：</p>
 <ul>
@@ -419,32 +421,11 @@
 <li><p><strong>卓越的文档</strong>：Arch Wiki 被广泛认为是 Linux 领域最全面、最优质的社区文档之一。</p>
 </li>
 </ul>
-<hr>
 <blockquote>
 <p><strong>警告：若您初次安装并使用 Arch Linux，请按照此文档谨慎操作。</strong></p>
 <p>安装过程需要您直接与命令行交互，并对磁盘分区、网络配置等系统基础知识有一定了解。请务必仔细阅读每一步的说明，理解其含义后再执行操作。错误的命令可能导致数据丢失或系统无法启动。</p>
 </blockquote>
 <p>本 Wiki 页面将引导您完成从准备安装介质、分区、安装基本系统、配置引导程序到进入新系统的全过程。安装基本系统后，您可以根据后续指南配置图形界面（桌面环境）与常用软件。请确保在开始前已备份所有重要数据，并准备好稳定的网络连接。</p>
-<hr>
-<h2 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h2><p>This guide aims to provide first-time Arch Linux users with a clear, step-by-step installation tutorial. Arch Linux is a lightweight, highly customizable Linux distribution that adheres to the “KISS” (Keep It Simple, Stupid) principle. It employs a rolling release model, offering users the latest software packages and a user-driven, highly flexible system-building experience.</p>
-<h3 id="FAQ-Why-Choose-Arch-Linux"><a href="#FAQ-Why-Choose-Arch-Linux" class="headerlink" title="FAQ: Why Choose Arch Linux?"></a>FAQ: Why Choose Arch Linux?</h3><p><strong>Q: What are the advantages or characteristics compared to Windows and other Linux distributions?</strong></p>
-<p>A: Arch Linux’s design philosophy brings several distinctive features:</p>
-<ul>
-<li><p><strong>Minimalism and Control</strong>: The installation media provides only a minimal base system. Users can install and configure every component from scratch according to their own needs, resulting in a system that perfectly matches personal expectations, avoiding unnecessary pre-installed software.</p>
-</li>
-<li><p><strong>Rolling Release</strong>: Through continuous package updates, users can quickly obtain the latest kernel, drivers, and applications without waiting for major version upgrades.</p>
-</li>
-<li><p><strong>Powerful Software Ecosystem</strong>: The official software repository (<code>pacman</code>) combined with the Arch User Repository (AUR) offers an extremely rich selection of software.</p>
-</li>
-<li><p><strong>Excellent Documentation</strong>: The Arch Wiki is widely regarded as one of the most comprehensive and high-quality community documentation resources in the Linux world.</p>
-</li>
-</ul>
-<hr>
-<blockquote>
-<p><strong>Warning: If you are installing and using Arch Linux for the first time, please follow this document carefully.</strong></p>
-<p>The installation process requires direct interaction with the command line and a basic understanding of system fundamentals such as disk partitioning and network configuration. Be sure to read the instructions for each step carefully and understand their meaning before executing any commands. Incorrect commands may lead to data loss or a system that fails to boot.</p>
-</blockquote>
-<p>This Wiki page will guide you through the entire process, from preparing the installation media, partitioning, installing the base system, configuring the bootloader, to entering the new system. After installing the base system, you can follow subsequent guides to configure the graphical interface (desktop environment) and common software. Please ensure that you have backed up all important data before starting and have a stable network connection ready.</p>
 
                 
               </div>
@@ -491,7 +472,7 @@
                     
                       <a href="/macroworld/2020/01/01/%E5%AE%89%E8%A3%85%E5%89%8D%E5%87%86%E5%A4%87/" title="安装前准备">
                         <span class="hidden-mobile">安装前准备</span>
-                        <span class="visible-mobile">Next</span>
+                        <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
                     
@@ -512,7 +493,7 @@
     <div id="toc">
   <p class="toc-header">
     <i class="iconfont icon-list"></i>
-    <span>Table of Contents</span>
+    <span>目录</span>
   </p>
   <div class="toc-body" id="toc-body"></div>
 </div>
@@ -568,7 +549,7 @@
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
         <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -576,7 +557,7 @@
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
@@ -596,6 +577,32 @@
       MacroWorld
     </div>
   
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+
+  
+
+</div>
+
   
   
 </div>
@@ -621,6 +628,21 @@
 <script  src="/macroworld/js/events.js" ></script>
 <script  src="/macroworld/js/plugins.js" ></script>
 
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
 
 
 
@@ -791,6 +813,8 @@
 
   <script  src="/macroworld/js/local-search.js" ></script>
 
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
 
 
 
@@ -803,7 +827,7 @@
   
 
   <noscript>
-    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
 </body>
 </html>
